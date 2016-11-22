@@ -15,7 +15,7 @@ describe('Gab', function() {
             it('should return data', function(done) {
                 gab.getUser('LyndsySimon')
                     .then(function(data) {
-                        expect(JSON.parse(data).username).toEqual('LyndsySimon');
+                        expect(data.username).toEqual('LyndsySimon');
                         done();
                     })
                     .catch(function(err) {
