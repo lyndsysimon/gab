@@ -1,6 +1,6 @@
 {
-  "name": "gab",
-  "version": "0.0.1",
+  "name": "gab.ai",
+  "version": "0.0.1-dev",
   "description": "An API wrapper for gab.ai",
   "scripts": {
     "test": "jasmine-node --verbose test/spec"
