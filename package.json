@@ -1,0 +1,14 @@
+{
+  "name": "gab",
+  "version": "0.0.1",
+  "description": "An API wrapper for gab.ai",
+  "scripts": {
+    "test": "jasmine-node --verbose test/spec"
+  },
+  "author": "Lyndsy Simon",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
