@@ -35,14 +35,6 @@ For information on Promise objects, see the [documentation for request-promise](
 
 ## Running Tests
 
-Tests currently require an authorized JWT to run - HTTP requests will be mocked in the near future, but are not yet. First, set the JWT to use as an environment variable:
-
-```bash
-export GAB_JWT="<your JWT>"
-```
-
-Once your JWT is set, in the same shell session, run the tests:
-
 ```bash
 npm test
 ```
