@@ -2,6 +2,10 @@
 
 A wrapper for the gab.ai API
 
+| Service | Status |
+| --- | --- |
+| CircleCI | [![CircleCI](https://circleci.com/gh/lyndsysimon/gab.svg?style=svg)](https://circleci.com/gh/lyndsysimon/gab) |
+
 ## Usage
 
 The API is exposed as a single `Gab` object, which must be initialized with an authorized JWT.
