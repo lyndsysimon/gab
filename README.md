@@ -6,7 +6,8 @@ This is a fork from https://saythanks.io/to/lyndsysimon. Please thank him.
 
 ## Usage
 
-The API is exposed as a single `Gab` object, which must be initialized with an authorized JWT.
+The API is exposed as a single `Gab` object, which must be initialized with an authorized JWT. This is a token that is set as "HttpOnly", so it's generally not visible and queryable through JavaScript. You can display that token either with an extension to display cookies or retrieve it from the requests as they are logged by your browser's debugging tools.
+
 
 ```javascript
 var Gab = require('gab.ai').Gab;
