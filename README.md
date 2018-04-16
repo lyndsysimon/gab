@@ -17,13 +17,29 @@ var api = new Gab('<your JWT>')
 Once you have an instance of the Gab object, calling each API method will return a Promise object. For example, to get information for a user:
 
 ```javascript
+// Get information about a user.
 api.getUser('a')
     .then(function(data) {
         console.log(data);
     }).catch(function() {
         console.log('Request failed.');
     });
-api.post('This is a message.', '<optional ID of post to reply to>');
+
+// Submit a post.
+api.post({body: "<p>This is the message of the post</p>", gif: '3PrOqZRpbmqFa'})
+    .then(function(data) {
+        console.log(data);
+    }).catch(function() {
+        console.log('Request failed.');
+    });
+
+// Get information about a post.
+api.getPost('23916771')
+    .then(function(data) {
+        console.log(data);
+    }).catch(function() {
+        console.log('Request failed.');
+    });
 ```
 
 For information on Promise objects, see the [documentation for request-promise](https://github.com/request/request-promise).
