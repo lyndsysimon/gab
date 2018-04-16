@@ -6,7 +6,7 @@ This is a fork from https://saythanks.io/to/lyndsysimon. Please thank him.
 
 ## Usage
 
-The API is exposed as a single `Gab` object, which must be initialized with an authorized JWT. This is a token that is set as "HttpOnly", so it's generally not visible and queryable through JavaScript. You can display that token either with an extension to display cookies (for example, http://www.editthiscookie.com/) or retrieve it from the requests as they are logged by your browser's debugging tools.
+The API is exposed as a single `Gab` object, which must be initialized with an authorized JWT. This is a token that is set as "HttpOnly", so it's generally not visible and queryable through JavaScript. Use your browser's features to display secure cookies and copy the value of the cookie named "remember_..." for the domain "Gab.ai" (for example, in Chrome, under Application -> Storage -> Cookies in the developer tools).
 
 
 ```javascript
