@@ -27,7 +27,8 @@ api.getUser('a')
 
 // Submit a post.
 // The ID of the GIF can be copied from the URL used for sharing the GIPHY GIF you want to
-// attach, such as 'nO2ttDiHPqEP6' in 'https://media.giphy.com/media/nO2ttDiHPqEP6/giphy.gif'.
+// attach, such as 'nO2ttDiHPqEP6' in 'https://media.giphy.com/media/nO2ttDiHPqEP6/giphy.gif'
+// or queried from their own API.
 api.putPost({body: "<p>This is the message of the post</p>", gif: '3PrOqZRpbmqFa'})
     .then(function(data) {
         console.log(data);
