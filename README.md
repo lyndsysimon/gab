@@ -26,7 +26,7 @@ api.getUser('a')
     });
 
 // Submit a post.
-api.post({body: "<p>This is the message of the post</p>", gif: '3PrOqZRpbmqFa'})
+api.putPost({body: "<p>This is the message of the post</p>", gif: '3PrOqZRpbmqFa'})
     .then(function(data) {
         console.log(data);
     }).catch(function() {
