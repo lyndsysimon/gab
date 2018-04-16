@@ -1,6 +1,7 @@
 # gab.ai
 
-A wrapper for the gab.ai API
+A wrapper for the gab.ai API.
+
 This is a fork from https://saythanks.io/to/lyndsysimon. Please thank him.
 
 ## Usage
